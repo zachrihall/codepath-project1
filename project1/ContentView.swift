@@ -1,22 +1,19 @@
-//
-//  ContentView.swift
-//  project1
-//
-//  Created by Zach on 9/15/26.
-//
-
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        TaskListView()
+            .ignoresSafeArea()
     }
+}
+
+struct TaskListView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> UINavigationController {
+        UINavigationController(rootViewController: TaskListViewController())
+    }
+
+    func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {}
 }
 
 #Preview {
