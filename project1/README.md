@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-https://canva.link/7lhdxdcuxiqx9eg
+<iframe src="https://canva.link/7lhdxdcuxiqx9eg" width="560" height="315" allowfullscreen="allowfullscreen"></iframe>
 
 ## Notes
 
